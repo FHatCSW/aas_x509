@@ -1,10 +1,12 @@
 # aas_x509
 
-This repo will guide you to the setup of 
+Deploying the BaSyx AAS GUI, BaSyx AAS registry and AAS server via Docker Compose and the create an Asset Administration Shell (AAS) and a submodel via the BaSyx Python SDK.
 
 ## Deploy BaSyx via Docker Compose
 
 This Docker Compose configuration sets up a deployment of Eclipse BaSyx components, including the BaSyx AAS (Asset Administration Shell) registry, AAS server, and a GUI. Follow the steps below to deploy the system.
+
+> The AAS server wil be deployed in version 2.0
 
 ### Prerequisites
 
@@ -29,6 +31,8 @@ docker-compose up -d
 # Generate a AAS and a submodel
 
 To create a submodel one need to create an Asset Administration Shell (AAS) and afterwards a submodel  for the AAS.
+
+> The Basyx Python SDK is for the AAS server API version 3.0. The json to create the submodel will be manipulated
 
 ## Prerequisites
 
