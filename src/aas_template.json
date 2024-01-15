@@ -1,0 +1,22 @@
+{
+    "hasDataSpecification": [],
+    "asset": {
+        "keys": [],
+        "kind": "Instance",
+        "identification": {
+            "idType": "IRI",
+            "id": "exampleAsset"
+        },
+        "idShort": "exampleAssetIdShort"
+    },
+    "submodels": [],
+    "conceptDictionaries": [],
+    "identification": {
+        "idType": "IRI",
+        "id": "industrial_device"
+    },
+    "idShort": "IndustrialDevice",
+    "modelType": {
+        "name": "AssetAdministrationShell"
+    }
+}
